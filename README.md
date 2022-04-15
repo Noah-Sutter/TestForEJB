@@ -40,7 +40,7 @@
 - Auf `localhost:9990`ist die Adminconsole
 - Mit `admin` `admin` anmelden
 - Und wir sind gelandet
-- Hier kann man auch händisch Dinge deployen oder nachsehen, weile EJB oder REST(JAX-RS)  endpunkte verfügbar sind (in Tab Runtime und eigenes Gerät auswählen)
+- Hier kann man auch händisch Dinge deployen oder nachsehen, welche EJB oder REST(JAX-RS) endpunkte verfügbar sind (in Tab Runtime und eigenes Gerät auswählen)
 
 ## Deployment über IntelliJ
 
