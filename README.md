@@ -73,3 +73,8 @@ Als alternative habe ich es hier mit Wildfly probiert (in meine endlosen Rechrec
   - `wildfly-ejb-client-bom`
   - `wildfly-niming-client`
   - `jboss-ejb-client`
+
+## Automatisches Deployen über Deploy-Folder
+
+`.war` Files lassen sich neben der händischen Deployment und IntelliJ auch über einen Folder deployen. Einfach die zu deployende `.war` Datei in den Folder im Serververzeichnis `standalone/deployments` ziehen und die Datei wird automatisch deployed. Wenn die Deployment abgeschlossen ist, dann erscheint einmal eine File mit dem gleichen Namen `.war.deployed`. Zum Undeployen einfach die originale `.war` File entfernen. Die `war.deployed` File wird gegen eine `.war.undeployed` File ausgetausch, die gelöscht werden muss, bevor man eine neue `.war` mit dem gleichen Namen deployed. 
+
