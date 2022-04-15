@@ -16,7 +16,7 @@ Als alternative habe ich es hier mit Wildfly probiert (in meine endlosen Rechrec
 
 ## User für WildFly Anwenden
 
-- File `add-user-properties` öffnen (weiterhin im `bin` Folder), `password.restriction`: 
+- File `add-user.properties` öffnen (weiterhin im `bin` Folder), `password.restriction`: 
   - minLength -> 0
   - minAlpha -> 0
   - minDigit -> 0
