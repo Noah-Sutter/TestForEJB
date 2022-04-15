@@ -6,12 +6,12 @@
 - 26.1.0.Final -> JakartaEE 8.0 -> Zip
 - JAVA_HOME und Java in Path hinzufügen
 - Serververzeichnis aussuchen
-- In bin von Server
-- `standalone.bat` ausführen (als admin)
+- Den `bin` Folder vom Server öffnen
+- dort `standalone.bat` ausführen (als admin)
 
 ## User für WildFly Anwenden
 
-- File `add-user-properties` öffnen, `password.restriction`: 
+- File `add-user-properties` öffnen (weiterhin im `bin` Folder), `password.restriction`: 
   - minLength -> 0
   - minAlpha -> 0
   - minDigit -> 0
