@@ -10,7 +10,7 @@ Als alternative habe ich es hier mit Wildfly probiert (in meine endlosen Rechrec
 - https://www.wildfly.org/downloads/
 - 26.1.0.Final -> JakartaEE 8.0 -> Zip
 - JAVA_HOME und Java in Path hinzufügen
-- Serververzeichnis aussuchen
+- Achtung, das ist der Schwierigste Teil der Anleitung: Ihr müsst euch jetzt entscheiden, in welchem Verzeichnis ihr den Server installiert haben wollt. Hier seid ihr selbst gefordert! Anyway, dort einfach die `.zip` Datei entpacken
 - Den `bin` Folder vom Server öffnen
 - dort `standalone.bat` ausführen (als admin)
 
