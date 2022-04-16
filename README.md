@@ -1,5 +1,7 @@
 # Anleitung zum Setuppen von Wildfly mit Hilfe dieses basic EJB Programms
 
+**Anleitung für Docker gibt es im Branch `dockerize`!**
+
 Warum überhaupt WildFly? 
 Ich habe zuvor versucht, über Payara EJB Anwendungen in IntelliJ zu deployen, nur mit bedingten Erfolg. Der Payaraserver hat sich (zumindest auf meinem System) als sehr unzuverlässig herausgestellt und nach vielen Stunden arbeit hab ich das weiterhin nicht hinbekommen.
 
