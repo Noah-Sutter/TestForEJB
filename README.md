@@ -1,11 +1,5 @@
 # Anleitung zum Setuppen von Wildfly mit Hilfe dieses basic EJB Programms
 
-**Anleitung für Docker gibt es im Branch `dockerize`!**
-
-Warum überhaupt WildFly? 
-Ich habe zuvor versucht, über Payara EJB Anwendungen in IntelliJ zu deployen, nur mit bedingten Erfolg. Der Payaraserver hat sich (zumindest auf meinem System) als sehr unzuverlässig herausgestellt und nach vielen Stunden arbeit hab ich das weiterhin nicht hinbekommen.
-
-Als alternative habe ich es hier mit Wildfly probiert (in meine endlosen Rechrechen bin ich zu EJB Zeug hauptsächlich auf Wildfly Server gestoßen) und das hat relativ einwandfrei geklappt. Das initiale Setup ist etwas aufwändiger (Hauptsächlich dem geschuldet, dass wir selbst einen User anelgen müssen und ich jegliche Sicherheitsmaßnahmen für die Passwörter entfernt habe), dafür ist er schneller und IntelliJ kann auch viel besser damit. Außerdem hat man bei der Weboberfläche des Wildfly Servers das Gefühl, dass man auch im 21. Jahrhundert angekommen ist ;)
 
 ## Installation Wildfly
 
